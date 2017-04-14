@@ -1,0 +1,25 @@
+footer
+  background: url(../img/bg.png) center center
+  background-size: cover
+
+  .lockup
+    padding: 50px 30px
+    +clearfix
+
+
+    .content-wrap
+      float: left
+
+      .copyright
+        margin: 0
+        font-size: 12px
+        color: rgba(255,255,255,1)
+
+      a
+        @extend %small-bold
+        color: rgba(221, 233, 253, 1)
+        display: inline-block
+        margin-right: 30px
+
+        &:hover
+          color: rgba(255,255,255,1)
